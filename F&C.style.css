@@ -1,0 +1,43 @@
+@@import "@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Playfair+Display&display=swap');";
+
+body{
+  font-family: Didact Gothic;
+  font-size: 16px;
+  line-height: 1.5;
+
+  background-color: #ffffff;
+  color: #252621;
+  margin: 48px auto 48px auto;
+  width: 1120px;
+}
+
+header{
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 45px 0 45px;
+}
+
+h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 200;
+}
+
+nav{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+a{
+  color: #252621;
+  text-decoration: none;
+  margin: 0 0 0 32px;
+  transition: color 0.3s;
+}
+
+a:hover{
+  color: #F9DDD2
+}

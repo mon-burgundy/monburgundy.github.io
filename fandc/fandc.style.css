@@ -51,6 +51,10 @@ h2{
 
 }
 
+section.project img{
+  grid-column: 1 / span 4;
+}
+
 footer{
   display: flex;
   align-items: center;

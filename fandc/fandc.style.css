@@ -52,28 +52,42 @@ h2{
 
 p{
   font-family: 'Didact Gothic', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   color: #252621;
 }
 
 
 section {
-  margin: 80px 80px 80px 80px;
+  margin: 80px 150px 80px 150px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 32px 32px;
+  align-items: center;
+  grid-auto-flow: dense;
+
 }
 
 section.project img {
-  grid-column: 1 / span 4;
   max-width: 80%;
   height: auto;
   width: auto\9; /* ie8 */
 }
 
-section.project div {
-  grid-column: 5 / span 7;
+section.project div.photo {
+  grid-column: 1 / span 4;
+}
+
+section.project div.bodycopy {
+  grid-column: 5 / span 8;
+}
+
+section.project-alt div.photo {
+  grid-column: 9 / span 4;
+}
+
+section.project-alt div.bodycopy {
+  grid-column: 1 / span 8;
 }
 
 

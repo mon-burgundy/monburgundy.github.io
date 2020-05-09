@@ -1,7 +1,7 @@
 @@import "@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Playfair+Display&display=swap');";
 
 body{
-  font-family: Didact Gothic;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 16px;
   line-height: 1.5;
 
@@ -45,29 +45,43 @@ a:hover{
 
 h2{
   font-family: 'Playfair Display', serif;
-  font-size: 48px;
+  font-size: 40px;
   line-height: 1.2;
   font-weight: 200;
-
 }
 
-section.project img{
+p{
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #252621;
+}
+
+
+section {
+  margin: 80px 80px 80px 80px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px 32px;
+}
+
+section.project img {
   grid-column: 1 / span 4;
+  max-width: 80%;
+  height: auto;
+  width: auto\9; /* ie8 */
 }
+
+section.project div {
+  grid-column: 5 / span 7;
+}
+
 
 footer{
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-section {
-  margin: 80px 0 80px 0;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-gap: 32px 32px;
-}
-
 
 footer a {
   margin: 0 16px 0 16px;
